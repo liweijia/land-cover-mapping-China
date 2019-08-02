@@ -2,7 +2,8 @@
 Integrating Google Earth imagery with Landsat data to improve 30-m land cover mapping in China
 
 
-1. Original Feature extraction
+
+Original Feature extraction
 
 glc_RF_mapping_24f.py
 
@@ -14,7 +15,8 @@ Output：
 - beijing_before_24f.txt
 
 
-2. VGG based land cover mapping and feature extraction
+
+VGG based land cover mapping and feature extraction
 
 glc_vgg_mapping_whole.py
 
@@ -27,7 +29,8 @@ Output：
 - beijing_vgg128_prob.txt
 
 
-3. Combination of 24 original features and 24 features extracted by VGG
+
+Combination of 24 original features and 24 features extracted by VGG
 
 combine_48f.py
 
@@ -39,7 +42,8 @@ Output：
 - beijing_vgg128_48f.txt
 
 
-4. RF/SVM/SVM-Fusion based land cover mapping and results integration
+
+RF/SVM/SVM-Fusion based land cover mapping and results integration
 
 get_ensemble_label_rf+svm+svm48+vgg.py
 
@@ -53,13 +57,14 @@ Output：
 - beijing_svm24_rf24_svm48_vgg_pred.txt
 
 
-5. Converting the predicted labels to final land cover maps
+
+Converting the predicted labels to final land cover maps
 
 map_show.py
 
 Input：
 - beijing_svm24_rf24_svm48_vgg_pred.txt
-- Landsat影像
+- Landsat images
 
 Output：
 - map_beijing_svm24_rf24_svm48_vgg_pred.tiff
