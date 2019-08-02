@@ -1,3 +1,6 @@
+
+Integrating Google Earth imagery with Landsat data to improve 30-m land cover mapping in China
+
 Original Feature extraction
 glc_RF_mapping_24f.py
 Input：
