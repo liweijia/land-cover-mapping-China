@@ -34,3 +34,9 @@ Converting the predicted labels to final land cover maps
 
 The model files and five land cover maps can be downloaded from:
 https://pan.baidu.com/s/1aQAKDL134ARX-RVhRRmn_A
+
+
+Contact: 
+Weijia Li
+liweijia621@gmail.com
+https://scholar.google.com/citations?user=R6Rnh9IAAAAJ&hl=en
