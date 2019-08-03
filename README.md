@@ -30,3 +30,7 @@ Converting the predicted labels to final land cover maps
 - map_show.py
 - Input：beijing_svm24_rf24_svm48_vgg_pred.txt，Landsat images
 - Output：map_beijing_svm24_rf24_svm48_vgg_pred.tiff
+
+
+The model files and five land cover maps can be downloaded from:
+https://pan.baidu.com/s/1aQAKDL134ARX-RVhRRmn_A
