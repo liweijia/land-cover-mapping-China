@@ -20,7 +20,7 @@ Combination of 24 original features and 24 features extracted by VGG
 - Output：beijing_vgg128_48f.txt
 
 
-RF/SVM/SVM-Fusion based land cover mapping and results integration
+RF/SVM/SVM-Fusion based land cover mapping and result integration
 - get_ensemble_label_rf+svm+svm48+vgg.py
 - Input：beijing_vgg128_48f.txt，beijing_vgg128_prob.txt，rf-model-origin24.save，svm-model-origin24.save，svm-vgg-48-sub128.save，scaler_24f.save, scaler_48f.save
 - Output：beijing_svm24_rf24_svm48_vgg_pred.txt
