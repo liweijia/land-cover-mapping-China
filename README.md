@@ -11,7 +11,7 @@ Original Feature extraction
 VGG based land cover mapping and feature extraction
 - glc_vgg_mapping_whole.py
 - Input：VGG model files，Google Earth high-resolution images，Landsat images
-- Output：beijing_vgg128_fc_24f.txt，eijing_vgg128_prob.txt
+- Output：beijing_vgg128_fc_24f.txt，beijing_vgg128_prob.txt
 
 
 Combination of 24 original features and 24 features extracted by VGG
